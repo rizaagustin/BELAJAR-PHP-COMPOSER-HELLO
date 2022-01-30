@@ -1,0 +1,20 @@
+{
+    "name": "riza/belajar-composer-hello",
+    "description": "library composer hello",
+    "type": "library",
+    "license": "no",
+    "autoload": {
+        "psr-4": {
+            "Riza\\BelajarComposerHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Riza Agustin",
+            "email": "rizaagustin20@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 8.0"
+    }
+}
